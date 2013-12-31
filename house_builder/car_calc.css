@@ -1,0 +1,52 @@
+img
+{
+	width: 240px;
+	float: left;
+	clear: both;
+}
+
+body
+{
+	width: 1000px;
+/*	background-color: #A4BCD8;*/
+	height: 1410px;
+	background-image:url('pic/car_lot_background.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: yellow;
+	background-color: brown;
+}
+
+#btn
+{
+	margin: 0px;
+}
+
+#left_nav
+{
+	margin-top: 60px;
+	padding-top: 10px;
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: #C0CAD4;
+}
+
+/*#left_nav_ghost
+{
+	opacity: .2;
+	width: 200px;
+	height: 300px;
+}*/
+
+#center_shell
+{
+	float: right;
+	width: 780px;
+	height: 650;
+}
+
+#center_shell h1
+{
+	font-size: 50px;
+}
