@@ -1,7 +1,7 @@
 <?php ?> 
 <html>
 <head>
-	<title>Build Me a House!</title>
+	<title>Car Haggler</title>
 	<link rel="icon" type="image/ico" href="pic/red_car.ico">
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<link href="../../bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet" media="screen"> 
@@ -25,6 +25,7 @@
 <body>
 
 	<div id='left_nav'>
+		<h1>Car Haggler</h1>
 		<input type="submit" class="btn btn-success" value="Add First Floor Room">
 		<input type="submit" class="btn btn-success" value="Add Second Floor Room">
 	</div>
@@ -32,6 +33,10 @@
 	<div id='center_shell'>
 
 		<form action="submit">
+			<input type="text" placeholder = 'Dealer Quoted'>
+			<br>
+			<input type="text" placeholder = 'Car Type'>
+			<br>
 			<input type="text" placeholder='Monthly Payment'>
 			<br>
 			<input type="text" placeholder='Number of Months'>
@@ -39,6 +44,10 @@
 			<input type="text" placeholder='Number of Years'>
 			<br>
 			<input type="text" placeholder='APR %'>
+			<br>
+			<input type="text" placeholder='Down Payment %'>
+			<br>
+			<input type="text" placeholder='Security Deposit %'>
 			<br>
 			<input type="button" class="btn btn-success" value='Calculate NPV'>
 		</form>

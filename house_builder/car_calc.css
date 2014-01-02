@@ -8,13 +8,12 @@ img
 body
 {
 	width: 1000px;
-/*	background-color: #A4BCD8;*/
+	background-color: #C1C1C1;
 	height: 1410px;
 	background-image:url('pic/car_lot_background.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: yellow;
-	background-color: brown;
 }
 
 #btn
@@ -29,15 +28,11 @@ body
 	float: left;
 	width: 200px;
 	height: 200px;
-	background-color: #C0CAD4;
+	position: fixed;
+
 }
 
-/*#left_nav_ghost
-{
-	opacity: .2;
-	width: 200px;
-	height: 300px;
-}*/
+
 
 #center_shell
 {
