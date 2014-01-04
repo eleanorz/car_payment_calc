@@ -32,21 +32,21 @@
 	<div id='center_shell'>
 			<!--below, is the form for submitting a new dealer offer -->		
 			<form action= 'car_calc_process.php' method = 'post'>
-			<input type="text" placeholder = 'Dealer'>
+			<input type="text" name = 'dealer' placeholder = 'Dealer'>
 			<br>
-			<input type="text" placeholder = 'Car Type'>
+			<input type="text" name = 'car_type' placeholder = 'Car Type'>
 			<br>
-			<input type="text" placeholder='Monthly Payment'>
+			<input type="text" name = 'monthly_payment' placeholder='Monthly Payment'>
 			<br>
-			<input type="text" placeholder='Number of Months'>
+			<input type="text" name = 'num_months' placeholder='Number of Months'>
 			OR
-			<input type="text" placeholder='Number of Years'>
+			<input type="text" name = 'num_years' placeholder='Number of Years'>
 			<br>
-			<input type="text" placeholder='APR %'>
+			<input type="text" name = 'apr' placeholder='APR %'>
 			<br>
-			<input type="text" placeholder='Down Payment %'>
+			<input type="text" name = 'down_payment' placeholder='Down Payment %'>
 			<br>
-			<input type="text" placeholder='Security Deposit %'>
+			<input type="text" name = 'sec_dep' placeholder='Security Deposit %'>
 			<br>
 			<input type = 'hidden' name = 'action' value = 'add_calc'>
 			<input type="submit" class="btn btn-success" value='Calculate NPV'>
