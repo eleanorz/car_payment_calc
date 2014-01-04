@@ -1,0 +1,53 @@
+img
+{
+	width: 240px;
+	float: left;
+	clear: both;
+}
+
+body
+{
+	width: 1000px;
+	background-color: #C1C1C1;
+	height: 1410px;
+	background-image:url('pic/car_lot_background.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+/*	color: yellow;
+*/}
+
+h1{
+	font-family: 'Ewert', cursive;
+	color: black;
+	font-size: 35px;
+}
+
+#btn
+{
+	margin: 0px;
+}
+
+#left_nav
+{
+	margin-top: 60px;
+	padding-top: 10px;
+	float: left;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+
+}
+
+
+
+#center_shell
+{
+	float: right;
+	width: 780px;
+	height: 650;
+}
+
+#center_shell h1
+{
+	font-size: 50px;
+}
