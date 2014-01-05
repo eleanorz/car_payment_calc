@@ -24,9 +24,12 @@
 
 </head>
 <body>
-
-	<div id='left_nav'>
-		<h1>Car Haggler</h1>
+	<div id='top_nav'>
+<!-- 		<h1>Car Haggler</h1> -->		
+<img id= 'logo' src="http://www.logomaker.com/logo-images/9847677fc7a8eec4.gif"/>
+<!-- 
+<img src="http://www.logomaker.com/logo-images/9847677fc7a8eec4.gif"/>
+<a href="http://www.logomaker.com"><img src="http://www.logomaker.com/images/logos.gif" alt="logos" border="0"/></a> -->
 	</div>
 
 	<div id='center_shell'>
