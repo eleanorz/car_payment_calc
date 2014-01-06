@@ -1,9 +1,3 @@
-img
-{
-	width: 240px;
-	float: left;
-	clear: both;
-}
 
 body
 {
@@ -16,17 +10,12 @@ body
 /*	color: yellow;
 */}
 
-h1
+h4
 {
-	font-family: 'Ewert', cursive;
-	color: black;
-	font-size: 35px;
+	color: white;
+	text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.74);
 }
 
-#btn
-{
-	margin: 0px;
-}
 
 #top_nav
 {
@@ -34,21 +23,35 @@ h1
 	padding-left: 15px;
 	float: left;
 	width: 1000px;
-	height: 50px;
+	height: 53px;
 	position: fixed;
 	background-color: white;
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid #927A64;
+}
+
+#top_nav input
+{
+	width: 80px;
 }
 
 #logo
 {
 	margin-top: -5px;
 	margin-bottom: 3px;
+	width: 260px;
 }
 
-#top_nav h1
+#login
 {
-	margin-top: 0px;
+	float: right;
+}
+
+#login a
+{
+	color: red;
+	text-decoration:underline;
+	font-size: 11px;
+	float: right;
 }
 
 /*#left_nav
@@ -61,18 +64,21 @@ h1
 	position: fixed;
 }*/
 
-
-
 #center_shell
 {
 	clear: both;
 	float: right;
 	width: 960px;
 	height: 650;
-	margin-top: 110px;
+	margin-top: 90px;
 }
 
 #center_shell h1
 {
 	font-size: 50px;
+}
+
+#add_new input
+{
+	width: 130px;
 }
