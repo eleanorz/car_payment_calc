@@ -1,14 +1,24 @@
 
-body
+#center_shell
 {
-	width: 1000px;
-	background-color: #C1C1C1;
-	height: 1410px;
-	background-image:url('pic/car_lot_background.jpg');
+/*	width: 1000px;
+	height: 1410px;*/
+	/*background-image:url('pic/car_lot_background.jpg');
 	background-attachment: fixed;
-	background-repeat: no-repeat;
-/*	color: yellow;
-*/}
+	background-repeat: no-repeat;*/
+/*	color: yellow;*/
+background-color: transparent;
+}
+
+body
+{ 
+ width: 1000px;
+  background: url('pic/car_lot_background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 h4
 {
@@ -21,18 +31,18 @@ h4
 {
 	padding-top: 4px;
 	padding-left: 15px;
-	float: left;
-	width: 1000px;
+/*	float: left;
+*/	width: 1000px;
 	height: 53px;
 	position: fixed;
 	background-color: white;
 	border-bottom: 3px solid #927A64;
 }
 
-#top_nav input
+/*#top_nav input
 {
 	width: 80px;
-}
+}*/
 
 #logo
 {
@@ -44,6 +54,14 @@ h4
 #login
 {
 	float: right;
+	width: 270px;
+}
+
+
+#login input
+{
+	width: 80px;
+	float: left;
 }
 
 #login a
@@ -54,23 +72,13 @@ h4
 	float: right;
 }
 
-/*#left_nav
+#taglines
 {
-	margin-top: 60px;
-	padding-top: 10px;
 	float: left;
-	width: 200px;
-	height: 200px;
-	position: fixed;
-}*/
-
-#center_shell
-{
-	clear: both;
-	float: right;
-	width: 960px;
+	width: 800px;
 	height: 650;
-	margin-top: 90px;
+	margin-top: 115px;
+	margin-left: 70px;
 }
 
 #center_shell h1
@@ -80,5 +88,11 @@ h4
 
 #add_new input
 {
+	float: right;
 	width: 130px;
+}
+
+#add_new
+{
+	float: right;
 }

@@ -12,22 +12,24 @@
 	<link rel="stylesheet" type='html/css' href="car_calc.css">
 </head>
 
-<body>
-	<div id='top_nav'>	
-		<img id= 'logo' src="http://www.logomaker.com/logo-images/9847677fc7a8eec4.gif"/>
+	<div class='container'>	
+		<div id='top_nav' class='row'>
+			<img id= 'logo' src="pic/logo.gif"/>
 
-		<div id = 'login'>
-			<input type="text" name = 'email' placeholder = 'email'>	
-			<input type="text" name = 'password' placeholder = 'password'>
-			<input type="submit" class = 'btn btn-default btn-xs' value='login'>
-			<br><a href="cnn.com">new user?</a>
+			<div id = 'login'>
+				<input type="text" name = 'email' placeholder = 'email'>	
+				<input type="text" name = 'password' placeholder = 'password'>
+				<input type="submit" class = 'btn btn-default btn-xs' value='login'>
+				<br><a href="">new user?</a>
+			</div>
+				
 		</div>
-			
 	</div>
+<body>
 
 	<div id='center_shell'>
 			<!--below, is the form for submitting a new dealer offer -->		
-			<form id = 'add_new' action= 'car_calc_process.php' method = 'post'>
+		<form id = 'add_new' action= 'car_calc_process.php' method = 'post'>
 			<h4>Add New Offer</h4>
 			<input type="text" name = 'dealer' placeholder = 'dealer'>
 			<br>
@@ -49,6 +51,23 @@
 			<input type="submit" class="btn btn-primary btn-lg" value='calculate !'>
 		</form>
 		<!-- End of adding new dealer offer Form -->
+
+		<div id = 'taglines'>
+			<h1>		
+				Calculate the total cost of any offer, on the spot. 
+			</h1>
+
+			<br>
+
+			<h2>
+				We track all your offers, for free.
+			</h2>
+
+			<h4>				
+			 	Try us, no sign-up, to the right!
+			</h4>			
+		</div>
+
 
 	</div>
 
